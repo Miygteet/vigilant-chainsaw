@@ -1,5 +1,6 @@
 <p>Looking for all of my socials? Then <a href="https://linktr.ee/m1yg1ee1">Click Here</a>.</p>
 <iframe src="https://discord.com/widget?id=1187858839253565500&theme=dark&username=" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<!-- Chat as a guest in my server -->
 <widgetbot
     server="1187858839253565500"
     channel="1187859145320300655"
@@ -7,3 +8,20 @@
     height="800"
 ></widgetbot>
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+<!-- Twitch Stream -->
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "alexgacha12",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
